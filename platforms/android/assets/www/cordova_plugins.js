@@ -6,8 +6,8 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/com.sgoldm.plugins.printpdf/www/PrintPDF.js",
-        "id": "com.sgoldm.plugins.printpdf.PrintPDF",
+        "file": "plugins/cordova-plugin-print-pdf/www/PrintPDF.js",
+        "id": "cordova-plugin-print-pdf.PrintPDF",
         "clobbers": [
             "window.PrintPDF"
         ]
@@ -32,7 +32,7 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.0.0",
-    "com.sgoldm.plugins.printpdf": "0.1.0",
+    "cordova-plugin-print-pdf": "0.1.0",
     "cordova-plugin-device": "1.0.2-dev",
     "cordova-plugin-inappbrowser": "1.0.2-dev"
 }

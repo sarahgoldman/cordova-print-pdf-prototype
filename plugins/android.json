@@ -29,7 +29,7 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.sgoldm.printingPrototype"
         },
-        "com.sgoldm.plugins.printpdf": {
+        "cordova-plugin-print-pdf": {
             "PACKAGE_NAME": "com.sgoldm.printingPrototype"
         }
     },

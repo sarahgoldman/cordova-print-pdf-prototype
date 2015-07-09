@@ -25,7 +25,7 @@
         "is_top_level": false,
         "variables": {}
     },
-    "com.sgoldm.plugins.printpdf": {
+    "cordova-plugin-print-pdf": {
         "source": {
             "type": "git",
             "url": "https://github.com/sarahgoldman/cordova-print-pdf-plugin.git",
