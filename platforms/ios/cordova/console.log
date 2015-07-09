@@ -1,0 +1,29 @@
+2015-07-07 15:53:28.746 PrintingPrototype[14626:121049] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sgoldm/Library/Developer/CoreSimulator/Devices/8A419ABE-E5D4-4AD5-A96F-C08AD99D70DB/data/Containers/Data/Application/AF8494F1-10AD-4BCD-8290-9EEAC5185116/Library/Cookies/Cookies.binarycookies
+2015-07-07 15:53:28.889 PrintingPrototype[14626:121049] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-07 15:53:28.889 PrintingPrototype[14626:121049] Multi-tasking -> Device: YES, App: YES
+2015-07-07 15:53:28.902 PrintingPrototype[14626:121049] Unlimited access to network resources
+2015-07-07 15:53:28.904 PrintingPrototype[14626:121049] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-07 15:53:29.477 PrintingPrototype[14626:121049] Resetting plugins due to page load.
+2015-07-07 15:53:29.635 PrintingPrototype[14626:121049] Finished load of: file:///Users/sgoldm/Library/Developer/CoreSimulator/Devices/8A419ABE-E5D4-4AD5-A96F-C08AD99D70DB/data/Containers/Bundle/Application/C3FEE162-5BC9-408F-9F26-B1E1E3AC97B8/PrintingPrototype.app/www/index.html
+2015-07-08 17:29:35.715 PrintingPrototype[5832:182886] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sgoldm/Library/Developer/CoreSimulator/Devices/8A419ABE-E5D4-4AD5-A96F-C08AD99D70DB/data/Containers/Data/Application/0D27BFAB-FAC8-4493-B916-FE5A8ACA590A/Library/Cookies/Cookies.binarycookies
+2015-07-08 17:29:36.124 PrintingPrototype[5832:182886] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 17:29:36.124 PrintingPrototype[5832:182886] Multi-tasking -> Device: YES, App: YES
+2015-07-08 17:29:36.255 PrintingPrototype[5832:182886] Unlimited access to network resources
+2015-07-08 17:29:36.271 PrintingPrototype[5832:182886] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 17:29:41.684 PrintingPrototype[5832:182886] Resetting plugins due to page load.
+2015-07-08 17:29:42.743 PrintingPrototype[5832:182886] Finished load of: file:///Users/sgoldm/Library/Developer/CoreSimulator/Devices/8A419ABE-E5D4-4AD5-A96F-C08AD99D70DB/data/Containers/Bundle/Application/65A43B44-D4E2-453D-81B6-1AE74A4BED88/PrintingPrototype.app/www/index.html
+2015-07-08 17:30:10.779 PrintingPrototype[5832:183294] Terminating since there is no system app.
