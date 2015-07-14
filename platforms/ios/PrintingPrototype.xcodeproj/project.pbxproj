@@ -39,10 +39,11 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		4DE443A822724C27A4720AA9 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D12D6B2E44BA7B45E5572 /* CDVDevice.m */; };
-		DEBB04BFAD12482BB35DB83E /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC7A7D975014887BE60F001 /* CDVInAppBrowser.m */; };
-		7847C0FD1E744BEB8FA51DD4 /* PrintPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = D93768E6FB8045CFB98590F5 /* PrintPDF.m */; };
-		2D754765324F4E09AD0C58DE /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CEACAC9928074E139C026344 /* NSData+Base64.m */; };
+		D696AB1ED66F46A589326646 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE9AD9E401B4DDBB65C6F3E /* CDVDevice.m */; };
+		414AE63C0F0B43E3B74A7029 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF0D673C7E84BF095417A04 /* CDVInAppBrowser.m */; };
+		94C34A6AEEB543F4BF365F23 /* PrintPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EF5F6CD8B0490CB49F2AD8 /* PrintPDF.m */; };
+		0DEC41A72AF04DE7B44EC422 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF80C935CB2482B8C6C5DB2 /* NSData+Base64.m */; };
+		64B86E5ADEFF43D682573D7C /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1DD4A294164071B1DF993E /* CDVLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,14 +109,16 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "PrintingPrototype/config.xml"; sourceTree = "<group>"; };
-		017D12D6B2E44BA7B45E5572 /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		89DAF52DFB574750BF63775A /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		6CC7A7D975014887BE60F001 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		BA4BC105ADB54C4486932BE1 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		D93768E6FB8045CFB98590F5 /* PrintPDF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PrintPDF.m"; path = "cordova-plugin-print-pdf/PrintPDF.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		CEACAC9928074E139C026344 /* NSData+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "cordova-plugin-print-pdf/NSData+Base64.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		B455FBEAC0634E14BFCB4B2D /* PrintPDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PrintPDF.h"; path = "cordova-plugin-print-pdf/PrintPDF.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		01EEA977DA24470FA2808901 /* NSData+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "cordova-plugin-print-pdf/NSData+Base64.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5BE9AD9E401B4DDBB65C6F3E /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		356DCED918224DCBB99BE266 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		FEF0D673C7E84BF095417A04 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9EADA175B3794350BFD0A8E8 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		58EF5F6CD8B0490CB49F2AD8 /* PrintPDF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PrintPDF.m"; path = "cordova-plugin-print-pdf/PrintPDF.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		CAF80C935CB2482B8C6C5DB2 /* NSData+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "cordova-plugin-print-pdf/NSData+Base64.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6EB9A518D5E54299B4353677 /* PrintPDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PrintPDF.h"; path = "cordova-plugin-print-pdf/PrintPDF.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D62D0115772F4D4F89CFDCC4 /* NSData+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "cordova-plugin-print-pdf/NSData+Base64.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EB1DD4A294164071B1DF993E /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3F41E5DF50E547ACB601C60A /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,14 +217,16 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				017D12D6B2E44BA7B45E5572 /* CDVDevice.m */,
-				89DAF52DFB574750BF63775A /* CDVDevice.h */,
-				6CC7A7D975014887BE60F001 /* CDVInAppBrowser.m */,
-				BA4BC105ADB54C4486932BE1 /* CDVInAppBrowser.h */,
-				D93768E6FB8045CFB98590F5 /* PrintPDF.m */,
-				CEACAC9928074E139C026344 /* NSData+Base64.m */,
-				B455FBEAC0634E14BFCB4B2D /* PrintPDF.h */,
-				01EEA977DA24470FA2808901 /* NSData+Base64.h */,
+				5BE9AD9E401B4DDBB65C6F3E /* CDVDevice.m */,
+				356DCED918224DCBB99BE266 /* CDVDevice.h */,
+				FEF0D673C7E84BF095417A04 /* CDVInAppBrowser.m */,
+				9EADA175B3794350BFD0A8E8 /* CDVInAppBrowser.h */,
+				58EF5F6CD8B0490CB49F2AD8 /* PrintPDF.m */,
+				CAF80C935CB2482B8C6C5DB2 /* NSData+Base64.m */,
+				6EB9A518D5E54299B4353677 /* PrintPDF.h */,
+				D62D0115772F4D4F89CFDCC4 /* NSData+Base64.h */,
+				EB1DD4A294164071B1DF993E /* CDVLogger.m */,
+				3F41E5DF50E547ACB601C60A /* CDVLogger.h */,
 			);
 			name = Plugins;
 			path = "PrintingPrototype/Plugins";
@@ -406,10 +411,11 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				4DE443A822724C27A4720AA9 /* CDVDevice.m in Sources */,
-				DEBB04BFAD12482BB35DB83E /* CDVInAppBrowser.m in Sources */,
-				7847C0FD1E744BEB8FA51DD4 /* PrintPDF.m in Sources */,
-				2D754765324F4E09AD0C58DE /* NSData+Base64.m in Sources */,
+				D696AB1ED66F46A589326646 /* CDVDevice.m in Sources */,
+				414AE63C0F0B43E3B74A7029 /* CDVInAppBrowser.m in Sources */,
+				94C34A6AEEB543F4BF365F23 /* PrintPDF.m in Sources */,
+				0DEC41A72AF04DE7B44EC422 /* NSData+Base64.m in Sources */,
+				64B86E5ADEFF43D682573D7C /* CDVLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -59,16 +59,29 @@ var app = {
 		console.log('TEST PRINT URL');
 		var url = 'http://www.sushirockva.com/media/docs/Sushi-Rock-Dinner.pdf';
 		var title = 'Sushi Rock Menu';
-		window.plugins.PrintPDF.printWithURL(url,title,function(){console.log('success')},function(){console.log('fail')});
+		window.plugins.PrintPDF.print({
+			type: 'url',
+			data: url,
+			title: title,
+			dialogX: 10,
+			dialogY: 10,
+			success: function(){console.log('success')},
+			error: function(data){console.log('failed: ' + data.error)}
+		});
 	},
 
 	printData: function() {
 		console.log('TEST PRINT DATA');
 		var xml = loadXMLDoc('xml/sample.xml');
 		var pdfEncoded = xml.getElementsByTagName('pdf')[0].childNodes[0].nodeValue;
-		console.log(pdfEncoded);
 		var title = 'Sushi Rock Menu';
-		window.plugins.PrintPDF.printWithData(pdfEncoded,title,function(){console.log('success')},function(){console.log('fail')});
+		window.plugins.PrintPDF.print({
+			type: 'base64',
+			data: pdfEncoded,
+			title: title,
+			success: function(){console.log('success')},
+			error: function(data){console.log('failed: ' + data.error)}
+		});
 	}
 
 };

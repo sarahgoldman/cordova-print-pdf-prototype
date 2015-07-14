@@ -32,7 +32,8 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.0.0",
-    "cordova-plugin-print-pdf": "0.1.0",
+    "cordova-plugin-print-pdf": "1.1.1",
+    "cordova-plugin-console": "1.0.2-dev",
     "cordova-plugin-device": "1.0.2-dev",
     "cordova-plugin-inappbrowser": "1.0.2-dev"
 }

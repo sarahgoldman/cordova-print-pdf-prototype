@@ -19,6 +19,10 @@
                         {
                             "xml": "<feature name=\"PrintPDF\"><param name=\"ios-package\" value=\"PrintPDF\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -40,6 +44,9 @@
             "PACKAGE_NAME": "com.sgoldm.printingPrototype"
         },
         "cordova-plugin-print-pdf": {
+            "PACKAGE_NAME": "com.sgoldm.printingPrototype"
+        },
+        "cordova-plugin-console": {
             "PACKAGE_NAME": "com.sgoldm.printingPrototype"
         }
     },

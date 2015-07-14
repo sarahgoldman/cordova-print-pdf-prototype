@@ -31,6 +31,9 @@
         },
         "cordova-plugin-print-pdf": {
             "PACKAGE_NAME": "com.sgoldm.printingPrototype"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.sgoldm.printingPrototype"
         }
     },
     "dependent_plugins": {
