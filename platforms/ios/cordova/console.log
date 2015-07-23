@@ -115,3 +115,56 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-07-14 12:10:23.889 PrintingPrototype[4731:97547] failed: undefined
 2015-07-14 12:10:25.945 PrintingPrototype[4731:97547] TEST PRINT DATA
 2015-07-14 12:10:28.496 PrintingPrototype[4731:97547] failed: undefined
+2015-07-21 10:25:42.309 PrintingPrototype[2660:44926] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sgoldm/Library/Developer/CoreSimulator/Devices/8A419ABE-E5D4-4AD5-A96F-C08AD99D70DB/data/Containers/Data/Application/EA1943D4-9A28-4BDF-88A1-51D6ECA7273A/Library/Cookies/Cookies.binarycookies
+2015-07-21 10:25:42.646 PrintingPrototype[2660:44926] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-21 10:25:42.646 PrintingPrototype[2660:44926] Multi-tasking -> Device: YES, App: YES
+2015-07-21 10:25:43.002 PrintingPrototype[2660:44926] Unlimited access to network resources
+2015-07-21 10:25:43.230 PrintingPrototype[2660:44926] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-21 10:25:47.294 PrintingPrototype[2660:44926] Resetting plugins due to page load.
+2015-07-21 10:25:47.547 PrintingPrototype[2660:44926] Finished load of: file:///Users/sgoldm/Library/Developer/CoreSimulator/Devices/8A419ABE-E5D4-4AD5-A96F-C08AD99D70DB/data/Containers/Bundle/Application/16CD6611-E63C-4C9D-940B-F32F24CC4BDA/PrintingPrototype.app/www/index.html
+2015-07-21 10:27:51.690 PrintingPrototype[2660:44926] TEST PRINT URL
+failed to find PDF header: `%PDF' not found.
+2015-07-21 10:27:51.702 PrintingPrototype[2660:44926] THREAD WARNING: ['PrintPDF'] took '12.049072' ms. Plugin should use a background thread.
+failed to find PDF header: `%PDF' not found.
+failed to find PDF header: `%PDF' not found.
+2015-07-21 10:28:03.460 PrintingPrototype[2660:44926] failed: undefined
+2015-07-21 10:28:04.115 PrintingPrototype[2660:44926] TEST PRINT DATA
+2015-07-21 10:28:12.939 PrintingPrototype[2660:44926] failed: undefined
+2015-07-21 10:30:02.519 PrintingPrototype[2799:47206] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sgoldm/Library/Developer/CoreSimulator/Devices/8A419ABE-E5D4-4AD5-A96F-C08AD99D70DB/data/Containers/Data/Application/1FCE2D7C-8492-4230-B9B5-6F890999EBA3/Library/Cookies/Cookies.binarycookies
+2015-07-21 10:30:02.599 PrintingPrototype[2799:47206] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-21 10:30:02.600 PrintingPrototype[2799:47206] Multi-tasking -> Device: YES, App: YES
+2015-07-21 10:30:02.614 PrintingPrototype[2799:47206] Unlimited access to network resources
+2015-07-21 10:30:02.617 PrintingPrototype[2799:47206] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-21 10:30:02.770 PrintingPrototype[2799:47206] Resetting plugins due to page load.
+2015-07-21 10:30:02.808 PrintingPrototype[2799:47206] Finished load of: file:///Users/sgoldm/Library/Developer/CoreSimulator/Devices/8A419ABE-E5D4-4AD5-A96F-C08AD99D70DB/data/Containers/Bundle/Application/8D8E5C23-6777-46E8-A0A3-68D917A905D6/PrintingPrototype.app/www/index.html
+2015-07-21 10:39:15.440 PrintingPrototype[3089:49817] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sgoldm/Library/Developer/CoreSimulator/Devices/8A419ABE-E5D4-4AD5-A96F-C08AD99D70DB/data/Containers/Data/Application/C045AE9B-2D4E-4042-9F9A-C0C838C3875F/Library/Cookies/Cookies.binarycookies
+2015-07-21 10:39:15.516 PrintingPrototype[3089:49817] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-21 10:39:15.517 PrintingPrototype[3089:49817] Multi-tasking -> Device: YES, App: YES
+2015-07-21 10:39:15.537 PrintingPrototype[3089:49817] Unlimited access to network resources
+2015-07-21 10:39:15.540 PrintingPrototype[3089:49817] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-21 10:39:15.709 PrintingPrototype[3089:49817] Resetting plugins due to page load.
+2015-07-21 10:39:15.751 PrintingPrototype[3089:49817] Finished load of: file:///Users/sgoldm/Library/Developer/CoreSimulator/Devices/8A419ABE-E5D4-4AD5-A96F-C08AD99D70DB/data/Containers/Bundle/Application/C08066F5-0EFE-4CBA-BD3E-C0547C23F255/PrintingPrototype.app/www/index.html
+2015-07-21 10:39:25.580 PrintingPrototype[3089:49817] TEST PRINT DATA
+2015-07-21 10:39:25.592 PrintingPrototype[3089:49817] THREAD WARNING: ['PrintPDF'] took '12.500000' ms. Plugin should use a background thread.
+2015-07-21 10:39:34.154 PrintingPrototype[3089:49817] failed: undefined

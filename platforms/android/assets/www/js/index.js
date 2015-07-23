@@ -44,29 +44,12 @@ var app = {
     },
     // deviceready Event Handler
     onDeviceReady: function(self) {
-        
-		document.getElementById('print-url').addEventListener('click', function(e){
-			self.printUrl();
-		});
-		
+	
 		document.getElementById('print-data').addEventListener('click', function(e){
 			self.printData();
 		});
 		
     },
-
-	printUrl: function() {
-		console.log('TEST PRINT URL');
-		var url = 'http://www.sushirockva.com/media/docs/Sushi-Rock-Dinner.pdf';
-		var title = 'Sushi Rock Menu';
-		window.plugins.PrintPDF.print({
-			type: 'url',
-			data: url,
-			title: title,
-			success: function(){console.log('success')},
-			error: function(data){console.log('failed: ' + data.error)}
-		});
-	},
 
 	printData: function() {
 		console.log('TEST PRINT DATA');
@@ -74,7 +57,6 @@ var app = {
 		var pdfEncoded = xml.getElementsByTagName('pdf')[0].childNodes[0].nodeValue;
 		var title = 'Sushi Rock Menu';
 		window.plugins.PrintPDF.print({
-			type: 'base64',
 			data: pdfEncoded,
 			title: title,
 			success: function(){console.log('success')},
